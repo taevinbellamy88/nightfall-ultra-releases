@@ -54,9 +54,13 @@ Offline, or if anything goes wrong, it starts the version you have. Your city, a
 
 ## Uninstall
 
-There is no uninstaller yet. To remove Ultra:
+Releases after 0.9.0: open **Settings > Apps > Installed apps**, find **Nightfall City Ultra** and choose **Uninstall**
+(the entry appears the first time the game starts after updating). Type `YES` to remove the game, its launcher and its
+shortcuts. Your city, agents, settings and activation key are kept unless you also type `DELETE`.
 
-1. Close it, then delete the `%LOCALAPPDATA%\NightfallCityUltra` folder.
+On 0.9.0, or by hand:
+
+1. Close Ultra, then delete the `%LOCALAPPDATA%\NightfallCityUltra` folder.
 2. Delete the **Nightfall City Ultra** shortcuts from the desktop and the Start menu.
 3. Only if you also want to delete your Ultra city, agents, settings and activation key: delete
    `%LOCALAPPDATA%\TradingCity-Ultra`.
@@ -75,3 +79,10 @@ compare the hash with the one listed for that file.
 [Privacy](https://nightfallcity.cpengine.store/privacy)
 
 Nightfall City is a product of ClearPath AI, a brand of ClearPath Innovative Solutions LLC.
+
+## Notices
+
+Nightfall City Ultra uses the Unreal® Engine. Unreal® is a trademark or registered trademark of Epic Games, Inc. in the
+United States of America and elsewhere. Unreal® Engine, Copyright 1998 – 2026, Epic Games, Inc. All rights reserved.
+Each download also carries the notices of the third-party software it includes (`NOTICES.txt`, and the license files
+inside `NightfallUltra\Service\trading-city-service\_internal`).
